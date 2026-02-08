@@ -18,7 +18,7 @@ Make Set One fully illustratable and production-ready without ambiguity.
 This path does NOT introduce new story content, interiors, or marketing assets.
 
 ### Step A1 — Canonical Environment Usage List (Set One)
-- [ ] Identify all environments implied by Books 1–6
+- [X] Identify all environments implied by Books 1–6
 - [ ] Name environments minimally (labels only)
 - [ ] Confirm no interiors are included
 - [ ] Confirm no new locations are invented
