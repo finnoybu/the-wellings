@@ -59,3 +59,21 @@ This file restricts variation. It does not prescribe technique.
 
 If a conflict arises between visual output and this document,
 this document takes precedence.
+
+---
+
+## Seasonal Consistency by Set
+
+Each book set is associated with a single season.
+
+Seasonal changes occur only between sets, not within them.
+
+Within a set:
+- Lighting
+- Foliage
+- Environmental mood
+
+must remain consistent across all books.
+
+Season progression is not used as a narrative or visual device within a set.
+
