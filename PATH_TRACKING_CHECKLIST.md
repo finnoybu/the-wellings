@@ -42,11 +42,11 @@ Environment Reuse Rules (documented)
 ---
 
 ### Step A3 — Set One Cover Progression Lock
-- [ ] Define symbolic progression (distance → approach → porch → door open)
-- [ ] Confirm progression applies to covers only
-- [ ] Confirm progression is non-narrative
-- [ ] Lock progression for Books 1–6
-- [ ] Document progression rules
+- [X] Define symbolic progression (distance → approach → porch → door open)
+- [X] Confirm progression applies to covers only
+- [X] Confirm progression is non-narrative
+- [X] Lock progression for Books 1–6
+- [X] Document progression rules
 
 **Deliverable:**  
 Set One Cover Progression Rules (documented)
