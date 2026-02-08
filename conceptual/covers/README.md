@@ -1,0 +1,1 @@
+All cover assets are conceptual and non-canon
