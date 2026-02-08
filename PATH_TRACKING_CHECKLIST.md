@@ -19,10 +19,10 @@ This path does NOT introduce new story content, interiors, or marketing assets.
 
 ### Step A1 — Canonical Environment Usage List (Set One)
 - [X] Identify all environments implied by Books 1–6
-- [ ] Name environments minimally (labels only)
-- [ ] Confirm no interiors are included
-- [ ] Confirm no new locations are invented
-- [ ] Document environments for Set One only
+- [X] Name environments minimally (labels only)
+- [X] Confirm no interiors are included
+- [X] Confirm no new locations are invented
+- [X] Document environments for Set One only
 
 **Deliverable:**  
 Set One Environment Usage List (documented)
@@ -30,11 +30,11 @@ Set One Environment Usage List (documented)
 ---
 
 ### Step A2 — Environment Reuse Rules
-- [ ] Define which environments may repeat across pages
-- [ ] Define which environments may repeat across books
-- [ ] Define which environments are transitional only
-- [ ] Explicitly forbid unintended continuity
-- [ ] Document reuse rules clearly
+- [X] Define which environments may repeat across pages
+- [X] Define which environments may repeat across books
+- [X] Define which environments are transitional only
+- [X] Explicitly forbid unintended continuity
+- [X] Document reuse rules clearly
 
 **Deliverable:**  
 Environment Reuse Rules (documented)
