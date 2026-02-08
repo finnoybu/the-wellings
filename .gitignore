@@ -1,0 +1,12 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Temporary / exports
+~DELIVERED/
+*.zip
+
+# AI / tooling noise (if any later)
+.tmp/
+.cache/
