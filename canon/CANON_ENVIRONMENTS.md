@@ -22,6 +22,17 @@ All interior depictions are considered non-canon unless explicitly added to cano
 
 ## CANONICAL ENVIRONMENTS (DEFINED)
 
+### Wellings House — Interior Reference Status
+
+Floorplan images for the Wellings house exist as canonical spatial reference only.
+
+These plans:
+- Define layout and relative room positioning
+- Do NOT grant automatic permission for interior illustrations
+- Do NOT imply interior scenes appear in Set One
+
+Interior usage must be explicitly introduced and canonized in a future phase.
+
 ### Welling House — Exterior Only
 
 **Status:** Canon  
