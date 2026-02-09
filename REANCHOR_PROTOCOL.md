@@ -1,88 +1,154 @@
 # Re-Anchor Protocol (Canonical Governance)
 
-These documents constitute the **entire canonical memory** of the project and are the **sole source of truth under project governance**.
+This document defines the **governance rules, authority hierarchy, and ingestion requirements**
+for all project materials. It must be applied **before** any interpretation, analysis, or action.
 
-Any information not explicitly documented in these files **does not exist** for the purposes of design, decision-making, or execution. Prior messages, inferred intent, assumptions, or external knowledge are invalid unless captured in the canon.
+---
+
+## Authority Hierarchy
+
+All project materials are governed by the following authority layers, listed from **highest** to **lowest** authority:
+
+### Layer 0 — Procedural Authority (Meta-Governance)
+
+Controls *how* all other materials are ingested, interpreted, validated, and tracked.
+
+- `REANCHOR_PROTOCOL.md`
+- `PATH_TRACKING_CHECKLIST.md`
+
+These documents are **procedurally authoritative over all other files**, including canon.
+They do not define project truth; they define **how truth and materials are handled**.
+
+Failure to comply with procedural authority invalidates all downstream work.
+
+---
+
+### Layer 1 — Canonical Truth
+
+Defines what is **true** about the project.
+
+Canon is the **sole source of truth** for decisions, invariants, requirements, and architecture.
+Anything not documented in canon **does not exist** for purposes of execution.
+
+Canon may only be modified through an explicit promotion process.
+
+---
+
+### Layer 2 — Supporting Project Artifacts
+
+Defines **implementation details, planning context, research, tracking, or exploratory work**.
+
+These files:
+- Are **not optional**
+- Must be ingested and understood
+- Do **not** override canon
+- Always outrank conversation
+
+Examples include (but are not limited to):
+- Design notes
+- Research documents
+- Status files
+- Checklists (non-governing)
+- Drafts and experiments
+
+---
+
+### Layer 3 — Conversation
+
+Ephemeral discussion and reasoning.
+
+Conversation:
+- Is valid only within the current session
+- Must never outrank any file
+- Is discarded unless explicitly promoted into documentation
 
 ---
 
 ## Protocol Precedence
 
-Every re-anchoring operation must begin with ingestion of this **REANCHOR_PROTOCOL.md** document.
+Every re-anchoring operation **must begin** with ingestion of:
+1. `REANCHOR_PROTOCOL.md`
+2. `PATH_TRACKING_CHECKLIST.md`
 
-This protocol governs **how** canonical files are interpreted, reviewed, and validated. Canonical content must not be ingested, analyzed, or acted upon until this protocol has been read and applied.
-
-Failure to begin re-anchoring with this protocol **invalidates the re-anchoring process**.
+No other files may be ingested, analyzed, or acted upon until these documents have been read and applied.
 
 ---
 
 ## Session Scope Rule
 
-In addition to the canonical files, any discussion between us **since the most recent canonical upload** is considered valid working context. This discussion may inform analysis and recommendations, but **does not override, amend, or expand canon** unless explicitly promoted and documented.
+In addition to files, any discussion **since the most recent update pack upload** is considered valid working context.
 
-All discussion **prior to the latest canonical upload** is considered intentionally discarded and must be treated as nonexistent unless it appears in the current canonical set.
+All discussion **prior** to the latest update pack is intentionally discarded and must be treated as nonexistent unless captured in files.
 
-If ambiguity exists between canon and current-session discussion, **canon always prevails**.
-
----
-
-## Re-Anchor Checklist
-
-- [ ] Latest canonical files are present and complete  
-- [ ] **REANCHOR_PROTOCOL.md** has been read in full prior to reviewing canon  
-- [ ] All canonical files will be read in full  
-- [ ] Purpose and authority will be restated per file  
-- [ ] Current relevance will be verified  
-- [ ] Gaps, conflicts, redundancy, or deprecated content will be identified  
-- [ ] Blocking issues will be surfaced before proceeding  
-- [ ] Current-session discussion since last canonical upload will be considered (non-canonical)  
-- [ ] Canon confirmed as prevailing source of truth  
-- [ ] No work will proceed until re-anchoring is complete  
+If ambiguity exists between files and conversation, **files always prevail**.
+If ambiguity exists between canon and other files, **canon prevails**.
+If ambiguity exists about process, **procedural authority prevails**.
 
 ---
 
-## Mandatory Re-Anchoring Requirements
+## Mandatory Full Update-Pack Traversal
 
-Before any work proceeds, you are required to **re-anchor on every canonical file**. Re-anchoring consists of the following mandatory steps:
+Re-anchoring is **not complete** until **every file and folder** in the update pack has been traversed.
 
-1. Confirm the file has been read **in full**  
-2. Restate the file’s **purpose and authority** within the project  
-3. Verify its **current relevance**  
-4. Identify any **gaps, redundancies, conflicts, or deprecated content**  
+Traversal requirements:
+- All directories must be enumerated
+- All files must be individually identified
+- No file may be implicitly assumed, skipped, or bulk-acknowledged
 
-Any issues identified during re-anchoring must be surfaced for discussion and resolved **before forward progress continues**.
+Re-anchoring applies to the **entire update pack**, not just canon.
+
+---
+
+## Lightweight Per-File Acknowledgment
+
+For each file in the update pack, you must acknowledge ingestion using the following **minimal format**:
+
+- **File:** `<path/filename>`
+  - Classification: Procedural Authority | Canon | Supporting Artifact
+  - Purpose: (one concise sentence)
+  - Status: Read / Understood / Flagged (if issues exist)
+
+No summaries, rewrites, or analysis are required unless issues are flagged.
+
+This acknowledgment exists to:
+- Prove ingestion
+- Confirm role comprehension
+- Prevent silent drift
+
+---
+
+## Re-Anchoring Completion Criteria
+
+Re-anchoring is considered complete **only when all of the following are true**:
+
+- Procedural authority documents ingested first
+- Full update-pack traversal completed
+- Every file acknowledged and classified
+- Canon reviewed and re-anchored
+- Supporting artifacts ingested
+- Any flagged issues surfaced before forward progress
 
 ---
 
 ## Automatic Re-Anchoring on Re-Entry
 
-Re-anchoring is required on **any resumption of work** following an interruption in continuity, including but not limited to:
-- Extended user absence  
-- Session or thread reset  
-- Explicit requests to “continue,” “resume,” or “pick up where we left off”  
-- Any uncertainty about whether current context reflects the latest canonical state  
+Re-anchoring is required on **any resumption of work** after a break in continuity, including:
+- Extended user absence
+- Session or thread reset
+- Requests to “continue,” “resume,” or “pick up where we left off”
+- Any uncertainty about alignment with the latest update pack
 
-Upon re-entry, you must:
-1. Re-anchor on the **most recently uploaded canonical update pack**  
-2. Re-read and consider any **valid current-session discussion** since that upload  
-3. Treat all earlier discussion as nonexistent unless captured in canon  
-
-No forward progress may occur until re-anchoring is complete unless explicitly waived by the user.
-
----
-
-## Continuity Rule
-
-Sustained operation across sessions depends on **explicit ingestion and re-anchoring of updated canonical files**. Re-anchoring is not optional, implicit, or assumed.
+No work may proceed until re-anchoring is complete unless explicitly waived by the user.
 
 ---
 
 ## Required Acknowledgement
 
-After re-anchoring, explicitly acknowledge completion **per file** and confirm that **REANCHOR_PROTOCOL.md** was ingested **prior to** reviewing canonical files.
+After re-anchoring, explicitly confirm:
 
-Advise on next steps derived strictly from:
-- the canonical documentation, and  
-- valid current-session discussion.
+- Procedural authority was ingested first
+- Full update-pack traversal was completed
+- All files were acknowledged and classified
+- Re-anchoring is complete or blocked (with reasons)
 
-Failure to explicitly acknowledge re-anchoring per file should be treated as **incomplete execution**.
+Failure to meet these conditions constitutes **incomplete execution**.
