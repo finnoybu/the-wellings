@@ -6,6 +6,7 @@ Thumbs.db
 # Temporary / exports
 .DELIVERED/
 *.zip
+.gitshow
 
 # AI / tooling noise (if any later)
 .tmp/
